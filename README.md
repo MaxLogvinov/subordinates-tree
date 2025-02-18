@@ -1,3 +1,43 @@
-# React + Vite
+# Проект: Иерархическая структура данных
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Задание
+
+-Отобразить иерархическую структуру данных и их взаимосвязи в виде графа
+-Сделать мобильную версию
+-Возможность какого-либо взаимодействия(Можно сворачивать-разворачивать выбранных пользователей)
+
+## Технологии и инструменты
+
+- **React**
+- **react-d3-tree**
+- **Vite**
+
+## Установка и запуск проекта
+
+1. Клонируйте репозиторий:
+   ```bash
+   git clone git@github.com:MaxLogvinov/subordinates-tree.git
+   cd subordinates-tree
+   ```
+2. Установите зависимости:
+   ```sh
+   npm install
+   # или
+   yarn install
+   ```
+
+### Запуск приложения
+
+Для запуска сервера разработки выполните:
+
+```sh
+npm run dev
+# или
+yarn dev
+```
+
+Приложение будет доступно по адресу http://localhost:5173.
+
+### Деплой на GitHub Pages
+
+**[Ссылка на сайт](https://maxlogvinov.github.io/subordinates-tree/)**
